@@ -1,0 +1,114 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #8a2be2, #4b00ff);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .wrapper {
+      width: 900px;
+      display: flex;
+      border-radius: 25px;
+      overflow: hidden;
+      background: white;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+    }
+
+    .left {
+      width: 50%;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .left img {
+      width: 75%;
+      margin-bottom: 20px;
+    }
+
+    .left p {
+      font-size: 14px;
+      opacity: 0.9;
+      width: 80%;
+    }
+
+    .right {
+      width: 50%;
+      padding: 60px 50px;
+    }
+
+    .right h2 {
+      font-size: 26px;
+      margin-bottom: 35px;
+      color: #333;
+    }
+
+    .input-group {
+      margin-bottom: 30px;
+    }
+
+    .input-group label {
+      font-size: 15px;
+      margin-bottom: 8px;
+      display: block;
+      color: #444;
+    }
+
+    .input-group input {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-bottom: 2px solid #ccc;
+      outline: none;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    .input-group input:focus {
+      border-bottom-color: #8a2be2;
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      border: none;
+      background: linear-gradient(135deg, #8a2be2, #4b00ff);
+      color: white;
+      border-radius: 25px;
+      cursor: pointer;
+      font-size: 17px;
+      margin-top: 10px;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      opacity: 0.9;
+    }
+
+    .links {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+    }
+
+    .links a {
+      color: #8a2be2;
+      text-decoration: none;
+    }
+
+  .btn-gradient {
+  background: linear-gradient(to right, #3ae7f6, #b74cf7);
+  color: white;
+  border: none;
+  transition: 0.3s;
+  font-weight: bold;
+}
